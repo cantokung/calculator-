@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+div{
+    border: 1px solid red;
+}
+.calculator-container{
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    padding: 30px;
+}
+.input-container{
+    display: flex;
+    justify-content: center; /* Center rows vertically */
+    justify-content: space-around;
+    margin: 40px;
+    margin-top: 0px;
+}
+
+.display{
+    padding: 8px;
+    margin: 40px;
+}
+
+.input{
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
